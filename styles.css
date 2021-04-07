@@ -1,0 +1,196 @@
+/* Defaults */
+* {
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+    text-decoration: none;
+}
+
+html { scroll-behavior: smooth; }
+body { background-color: #FBFBFB; }
+section { margin: 0 20vw; }
+
+/* Fonts */
+.display, h1, h2 {
+    color: #0E0E15;
+    font-family: Quicksand, sans-serif;
+    font-weight: 700;
+}
+
+.display { font-size: 5vw; }
+h1 { font-size: 3.3333333333333335vw; }
+h2 { font-size: 2.5vw; }
+
+h3 {
+    color: #EE2B48;
+    font-family: Quicksand, sans-serif;
+    font-weight: 600;
+    font-size: 1.875vw;
+    margin-top: 0.8333333333333334vw;
+}
+
+p {
+    color: #3F3F47;
+    font-family: Raleway, sans-serif;
+    font-weight: 500;
+    font-size: 1.25vw;
+    margin-top: 0.8333333333333334vw;
+}
+
+.subtle {
+    color: #B2B2B4;
+    font-family: Raleway, sans-serif;
+    font-weight: 400;
+    font-size: 0.8333333333333334vw;
+}
+
+/* Accent */
+.accent {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: 0.3125vw;
+    z-index: 1;
+    background-color: #FD0D31;
+}
+
+/* Hidden */
+body .hidden { display: none; }
+
+/* Call To Action */
+.cta p {
+    display: inline-flex;
+    padding: 0.625vw 2.5vw;
+    margin-top: 2.5vw;
+    color: #0E0E15;
+    background-color: none;
+    border: 0.15625vw solid #0E0E15;
+    border-radius: 0.5208333333333334vw;
+    transition: background-color .25s ease-in-out, color .25s ease-in-out;
+}
+
+.cta p:hover {
+    color: #FBFBFB;
+    background-color: #0E0E15;
+}
+
+/* Call To Action */
+.tags .subtle {
+    display: inline-flex;
+    padding: 0.3125vw 1.6666666666666667vw;
+    margin-top: 0.8333333333333334vw;
+    margin-right: 0.8333333333333334vw;
+    background-color: none;
+    border: 0.10416666666666667vw solid #B2B2B4;
+    border-radius: 0.3125vw;
+    transition: background-color .25s ease-in-out, color .25s ease-in-out;
+}
+
+.tags .subtle:hover {
+    color: #FBFBFB;
+    background-color: #B2B2B4;
+}
+
+/* Ionicons */
+ion-icon {
+    margin-top: 0.8333333333333334vw;
+    font-size: 1.6666666666666667vw;
+    color: #0E0E15;
+    transition: color .25s ease-in-out;
+}
+
+ion-icon:hover { color: #FD0D31; }
+
+/* ------------------------------------------------------------------------------------- */
+
+/* Nav Bar */
+nav {
+    position: fixed;
+    width: 100vw;
+    height: 5.208333333333333vw;
+    z-index: 10;
+    background: rgba(251, 251, 251, 0.6);
+    -webkit-backdrop-filter: blur(2.0833333333333335vw);
+    backdrop-filter: blur(2.0833333333333335vw);
+}
+
+nav .buttons {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20vw;
+    height: 100%;
+}
+
+nav .initials, nav .pages {
+    display: flex;
+    align-items: center;
+}
+
+nav .pages p {
+    margin-left: 3.3333333333333335vw;
+    margin-top: 0;
+    color: #0E0E15;
+    transition: color .25s ease-in-out;
+}
+
+nav .pages p:hover { color: #FD0D31; }
+
+/* Section One */
+.section-one {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+}
+
+/* Section Two */
+.section-two {
+    display: flex;
+    height: 100vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-two img {
+    width: 18.229166666666668vw;
+    filter: drop-shadow(0 0.4166666666666667vw 2.5vw rgba(14, 14, 21, 0.25));
+}
+
+/* Section Three */
+.section-three {
+    display: flex;
+    height: 100vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-three .tags {
+    margin-top: 1.6666666666666667vw;
+}
+
+.section-three .showcase img {
+    width: 20.833333333333332vw;
+    filter: drop-shadow(0 0.4166666666666667vw 2.5vw rgba(14, 14, 21, 0.25)); 
+}
+
+.section-three .links {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.section-three ion-icon { margin-left: 0.8333333333333334vw; }
+
+/* Section Four */
+.section-four {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+}
+
+.section-four .links { display: flex; }
+
+.section-four ion-icon { margin-right: 0.8333333333333334vw; }
+
+.section-four .part-b { margin-top: 2.9166666666666665vw; }
