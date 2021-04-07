@@ -127,10 +127,13 @@ nav .initials, nav .pages {
     align-items: center;
 }
 
-nav .pages p {
+nav .pages li {
     margin-left: 3.3333333333333335vw;
-    margin-top: 0;
     color: #0E0E15;
+}
+
+nav .pages p {
+    margin-top: 0;
     transition: color .25s ease-in-out;
 }
 
@@ -179,7 +182,7 @@ nav .pages p:hover { color: #FD0D31; }
     justify-content: flex-end;
 }
 
-.section-three ion-icon { margin-left: 0.8333333333333334vw; }
+.section-three li { margin-left: 0.8333333333333334vw; }
 
 /* Section Four */
 .section-four {
@@ -191,6 +194,6 @@ nav .pages p:hover { color: #FD0D31; }
 
 .section-four .links { display: flex; }
 
-.section-four ion-icon { margin-right: 0.8333333333333334vw; }
+.section-four li { margin-right: 0.8333333333333334vw; }
 
 .section-four .part-b { margin-top: 2.9166666666666665vw; }
