@@ -4,7 +4,6 @@ This is a small project I'm doing because I'm bored. Also because I've put this 
 
 ### TO DO
 
-- [ ] Connect site to personal domain
 - [ ] Create nav bar for mobile site
 - [ ] Add a new photo of myself when I can go back outside and socialize
 - [ ] Make site responsive for mobile
@@ -16,6 +15,7 @@ This is a small project I'm doing because I'm bored. Also because I've put this 
 - [x] Make website scalable
 - [x] Finalize design
 - [x] Add favicon
+- [x] Connect site to personal domain
 ---
 Designed and Developed by Mike Ploythai
 
