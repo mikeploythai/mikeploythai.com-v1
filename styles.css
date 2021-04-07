@@ -55,9 +55,6 @@ p {
     background-color: #FD0D31;
 }
 
-/* Hidden */
-body .hidden { display: none; }
-
 /* Call To Action */
 .cta p {
     display: inline-flex;
@@ -199,3 +196,42 @@ nav .pages p:hover, nav .initials h2:hover { color: #FD0D31; }
 .section-four li { margin-right: 0.8333333333333334vw; }
 
 .section-four .part-b { margin-top: 2.9166666666666665vw; }
+
+/* ------------------------------------------------------------------------------------- */
+
+/* Responsive */
+@media only screen and (max-width: 1024px) {
+    /* Typography */
+    .display { font-size: 6.666666666666667vw; }
+    h1 { font-size: 4.479166666666667vw; }
+    h2 { font-size: 3.3333333333333335vw; }
+    h3 { font-size: 2.5vw; }
+    p { font-size: 1.6666666666666667vw; }
+    .subtle { font-size: 1.25vw; }
+
+    /* Call To Action */
+    .cta p {
+        padding: 0.8333333333333334vw 3.3333333333333335vw;
+        border: 0.20833333333333334vw solid #0E0E15;
+        border-radius: 0.625vw;
+    }
+
+    /* Tags */
+    .tags .subtle {
+        padding: 0.4166666666666667vw 2.1875vw;
+        border: 0.15625vw solid #B2B2B4;
+        border-radius: 0.4166666666666667vw;
+    }
+
+    /* Ionicons */
+    ion-icon { font-size: 3.3333333333333335vw; }
+
+    /* Nav Bar */
+    nav { height: 7.8125vw; }
+    nav .buttons, section { margin: 0 10.208333333333334vw; }
+    
+    /* Sections */
+    .section-two img, .section-three .showcase img { width: 25vw; }
+    .section-three li { margin-left: 1.25vw; }
+    .section-four li { margin-right: 1.25vw; }
+}

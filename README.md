@@ -9,8 +9,7 @@ This is a small project I'm doing because I'm bored. Also because I've put this 
 - [ ] Make site responsive for mobile
 - [ ] Add JS to make sections fade in/out on click; website won't be scrollable
 - [ ] Add dark mode based on time
-- [ ] Add more projects to work section when possible
-- [ ] Fix link when switching sections
+- [ ] Add more to projects section when possible
 - [x] Finalize sections
 - [x] Make website scalable
 - [x] Finalize design
