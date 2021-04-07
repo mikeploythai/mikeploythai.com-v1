@@ -127,6 +127,8 @@ nav .initials, nav .pages {
     align-items: center;
 }
 
+nav .initials h2 { transition: color .25s ease-in-out; }
+
 nav .pages li {
     margin-left: 3.3333333333333335vw;
     color: #0E0E15;
@@ -137,7 +139,7 @@ nav .pages p {
     transition: color .25s ease-in-out;
 }
 
-nav .pages p:hover { color: #FD0D31; }
+nav .pages p:hover, nav .initials h2:hover { color: #FD0D31; }
 
 /* Section One */
 .section-one {
