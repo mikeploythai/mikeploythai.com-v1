@@ -197,10 +197,12 @@ nav .pages p:hover, nav .initials h2:hover { color: #FD0D31; }
 
 .section-four .part-b { margin-top: 2.9166666666666665vw; }
 
+.mobile-temp { display: none; }
+
 /* ------------------------------------------------------------------------------------- */
 
 /* Responsive */
-@media only screen and (max-width: 1024px) {
+@media (max-width: 1024px) {
     /* Typography */
     .display { font-size: 6.666666666666667vw; }
     h1 { font-size: 4.479166666666667vw; }
@@ -234,4 +236,35 @@ nav .pages p:hover, nav .initials h2:hover { color: #FD0D31; }
     .section-two img, .section-three .showcase img { width: 25vw; }
     .section-three li { margin-left: 1.25vw; }
     .section-four li { margin-right: 1.25vw; }
+}
+
+@media (max-width: 480px) {
+    section { margin: 0 48px; }
+
+    nav, .section-one, .section-two, .section-three, .section-four, .accent { display: none; }
+
+    .mobile-temp {
+        display: flex;
+        height: 100vh;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .mobile-temp h3 {
+        font-size: 48px;
+        margin-bottom: 8px;
+    }
+
+    .mobile-temp h1 {
+        font-size: 24px;
+        margin-bottom: 48px;
+    }
+
+    .mobile-temp .links { display: flex; }
+
+    .mobile-temp .links li { margin: 0 16px; }
+
+    ion-icon { font-size: 32px; }
 }
