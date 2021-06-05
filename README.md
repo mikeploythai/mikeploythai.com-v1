@@ -1,4 +1,4 @@
-# Mike Ploythai's Website
+# Mike Ploythai's Website (EOL)
 
 This is a small project I'm doing because I'm bored. Also because I've put this off for about 2 years at this point haha
 
